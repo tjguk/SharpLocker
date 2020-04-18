@@ -1,6 +1,8 @@
 # SharpLocker
 
-SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike. It is written in C# to allow for direct execution via memory injection using techniques such as execute-assembly found in Cobalt Strike or others, this method prevents the executable from ever touching disk. It is NOT intended to be compilled and run locally on a device. 
+SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike. It is written in C# to allow for direct execution via memory injection using techniques such as execute-assembly found in Cobalt Strike or others, this method prevents the executable from ever touching disk. It is NOT intended to be compilled and run locally on a device.
+
+* I AM TESTING
 
 ## What SharpLocker is
 * A .NET application that is supposed to be run in memory on a target device
@@ -21,5 +23,5 @@ SharpLocker helps get current user credentials by popping a fake Windows lock sc
 * Within a Cobalt Strike implant run execute-assembly C:/{location of exe}
 * Pray and wait for creds
 
-## Credits 
+## Credits
 - NetNTLMv2PasswordChecker [opdsealey](https://github.com/opdsealey/NetNTLMv2PasswordChecker)
